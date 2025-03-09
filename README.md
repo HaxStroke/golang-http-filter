@@ -4,9 +4,13 @@ This is a simple HTTP server written in Go that only allows requests made by wge
 # Features
 
 ✅ Serves files from the current directory
+
 ✅ Allows only requests with wget or curl User-Agent
+
 ✅ Logs all incoming requests
+
 ✅ Blocks IPs making invalid requests for 10 minutes
+
 ✅ Adds blocked IPs to iptables for enhanced security
 
 # How to Use
